@@ -18,7 +18,7 @@ A RESTful API built with Node.js and Express to manage insurance listings and pu
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/insurance-api
+   git clone https://github.com/jaibhedia/insurance-api
    cd insurance-api
    ```
 2. **Install Dependencies**:
@@ -36,14 +36,14 @@ A RESTful API built with Node.js and Express to manage insurance listings and pu
 ## API Endpoints
 Below are the endpoints with their deployed URLs on Render:
 - **GET /insurances**
-  - **URL**: `https://insurance-api.onrender.com/insurances`
+  - **URL**: `https://simplifymoney-assessment.onrender.com/insurances`
   - **Description**: Retrieves a list of all available insurances.
   - **Response**: 
     ```json
     [{"id": "1", "name": "Health Insurance", "premium": 1000, "coverage": "Up to $100,000"}, ...]
     ```
 - **POST /purchases**
-  - **URL**: `https://insurance-api.onrender.com/purchases`
+  - **URL**: `https://simplifymoney-assessment.onrender.com/purchases`
   - **Description**: Creates a purchase record for an insurance.
   - **Request Body**: 
     ```json
@@ -54,7 +54,7 @@ Below are the endpoints with their deployed URLs on Render:
     {"purchaseId": "abc123", "userId": "user1", "insuranceId": "1", "purchaseDate": "2025-03-26T12:00:00Z"}
     ```
 - **GET /purchases/{purchaseId}/policy**
-  - **URL**: `https://insurance-api.onrender.com/purchases/{purchaseId}/policy`
+  - **URL**: `https://simplifymoney-assessment.onrender.com/purchases/{purchaseId}/policy`
   - **Description**: Downloads a policy document (dummy PDF) for a specific purchase.
   - **Response**: Binary PDF file with headers:
     ```
@@ -62,7 +62,7 @@ Below are the endpoints with their deployed URLs on Render:
     Content-Disposition: attachment; filename="policy.pdf"
     ```
 - **GET /insurances/curated**
-  - **URL**: `https://insurance-api.onrender.com/insurances/curated?age=25&gender=male&income=50000`
+  - **URL**: `https://simplifymoney-assessment.onrender.com/insurances/curated?age=25&gender=male&income=50000`
   - **Description**: Retrieves insurances filtered by user details (bonus feature).
   - **Response**: 
     ```json
@@ -70,9 +70,9 @@ Below are the endpoints with their deployed URLs on Render:
     ```
 
 ## Deployment
-- **Live URL**: `https://insurance-api.onrender.com`
+- **Live URL**: `https://simplifymoney-assessment.onrender.com`
 - **Steps**:
-  1. Push the code to GitHub: `https://github.com/yourusername/insurance-api`.
+  1. Push the code to GitHub: `https://github.com/jaibhedia/insurance-api`.
   2. Create a Web Service on Render:
      - Connect your GitHub repository.
      - Set **Runtime**: Node.
