@@ -90,7 +90,7 @@ Below are the endpoints with their deployed URLs on Render:
 - **Test the API with Postman**:
   - **Postman Collection**: Access the public collection to test endpoints:
     ```
-    https://www.postman.com/insurance-api-1732/workspace/insurance-api-workspace/collection/34393089-e186b1fa-4972-4db4-9acf-8a4ecf1cef77
+    [https://www.postman.com/insurance-api-1732/workspace/insurance-api-workspace/collection/34393089-e186b1fa-4972-4db4-9acf-8a4ecf1cef77](https://insurance-api-1732.postman.co/workspace/Insurance-API-Workspace~0df38d02-4bb6-4035-b128-b5d689b9cbd3/collection/34393089-e186b1fa-4972-4db4-9acf-8a4ecf1cef77?action=share&creator=34393089)
     ```
   - **Instructions**: Open the link in Postman, or download the collection from the GitHub repo (`postman/Insurance_Purchase_API.postman_collection.json`) and import it via Postman’s "Import" feature.
 
