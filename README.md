@@ -18,7 +18,8 @@ A RESTful API built with Node.js and Express to manage insurance listings and pu
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/jaibhedia/insurance-api
+   git clone https://github.com/jaibhedia/simplifymoney-assessment
+
    cd insurance-api
    ```
 2. **Install Dependencies**:
@@ -72,7 +73,7 @@ Below are the endpoints with their deployed URLs on Render:
 ## Deployment
 - **Live URL**: `https://simplifymoney-assessment.onrender.com`
 - **Steps**:
-  1. Push the code to GitHub: `https://github.com/jaibhedia/insurance-api`.
+  1. Push the code to GitHub: `https://github.com/jaibhedia/simplifymoney-assessment`.
   2. Create a Web Service on Render:
      - Connect your GitHub repository.
      - Set **Runtime**: Node.
